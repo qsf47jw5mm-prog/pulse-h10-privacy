@@ -1,9 +1,9 @@
-
 <!DOCTYPE html>
 <html lang="de">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="viewport"
+        content="width=device-width, initial-scale=1">
   <title>Datenschutzerklärung – PULSE H10</title>
   <style>
     body {
@@ -18,77 +18,175 @@
   </style>
 </head>
 <body>
-  <h1>Datenschutzerklärung – PULSE H10</h1>
-  <p>Stand: 30. Oktober 2026</p>
 
-  <h2>1. Verantwortlicher</h2>
-  <p>
-    Entwickler: [Name des Verantwortlichen]<br>
-    Kontakt: [Kontakt-E-Mail-Adresse]
-  </p>
+<h1>Datenschutzerklärung – PULSE H10</h1>
+<p>Stand: 11. November 2026</p>
 
-  <h2>2. Zweck der Anwendung</h2>
-  <p>
-    PULSE H10 ist eine Anwendung zur Aufzeichnung und
-    Auswertung von Sensordaten des Polar-H10-Brustgurts.
-    Dazu gehören Herzfrequenz, EKG-Daten und weitere
-    verfügbare Sensormesswerte sowie freiwillige
-    Selbsteinschätzungen.
-  </p>
+<h2>1. Verantwortlichkeit</h2>
+<p>
+  PULSE H10 wird im Rahmen eines privaten,
+  nichtkommerziellen PhD-Forschungsprojekts
+  mit einem begrenzten Teilnehmerkreis verwendet.
+</p>
+<p>
+  Die Forschungsleitung organisiert die
+  Datenerhebung und verwaltet die zentral
+  gespeicherten Forschungsdaten.
+</p>
+<p>
+  Verantwortliche Forschungsleitung:<br>
+  Heinrich Gotzig<br>
+<a href="mailto:hgotzig@gmail.com">
+  hgotzig@gmail.com
+</a>
+</p>
 
-  <h2>3. Erhebung und Speicherung von Daten</h2>
-  <p>
-    Die Anwendung verarbeitet die Messdaten lokal
-    auf dem Android-Gerät.
-    Aufzeichnungen können als CSV-Dateien gespeichert
-    und exportiert werden.
-    Die App überträgt nach dem vorgesehenen
-    Funktionsumfang keine Messdaten automatisch an
-    Server des Entwicklers.
-  </p>
+</body>
+</html>
+</p>
+<p>
+  Technische Entwicklung und Betreuung:<br>
+  Paul Rostocki<br>
+  paul.rostocki@gmail.com
+</p>
 
-  <h2>4. Berechtigungen</h2>
-  <p>
-    Die App benötigt Bluetooth-Berechtigungen zur
-    Verbindung mit dem Polar-H10-Sensor.
-    Weitere Berechtigungen können für die laufende
-    Aufzeichnung, Benachrichtigungen und das Speichern
-    von Dateien erforderlich sein.
-  </p>
+<h2>2. Zweck der Anwendung</h2>
+<p>
+  PULSE H10 dient der Aufzeichnung und
+  technischen Auswertung von Sensordaten
+  des Polar-H10-Brustgurts.
+</p>
+<p>
+  Dazu gehören insbesondere Herzfrequenz,
+  EKG-Signale, verfügbare Bewegungsdaten
+  und freiwillige Selbsteinschätzungen.
+</p>
+<p>
+  Die Daten werden für wissenschaftliche
+  Untersuchungen im Rahmen des
+  Forschungsprojekts verwendet.
+</p>
 
-  <h2>5. Datenweitergabe</h2>
-  <p>
-    Eine automatische Weitergabe von Messdaten durch
-    die Anwendung ist nicht vorgesehen.
-    Nutzer können exportierte CSV-Dateien eigenständig
-    an andere Personen oder Dienste übermitteln.
-  </p>
+<h2>3. Erhebung und Speicherung</h2>
+<p>
+  Die Messdaten werden zunächst lokal auf
+  dem Android-Gerät aufgezeichnet.
+</p>
+<p>
+  Die Anwendung ermöglicht die Speicherung
+  und den Export der Messdaten als CSV-Dateien.
+</p>
+<p>
+  Zusätzlich werden Aufzeichnungen
+  automatisch über eine verschlüsselte
+  HTTPS-Verbindung an eine zentrale
+  Serverinfrastruktur übertragen.
+</p>
+<p>
+  Die Übertragung erfolgt über Google Cloud Run.
+  Nach erfolgreicher Prüfung werden die
+  Aufzeichnungen in einem zugriffsbeschränkten
+  Google-Drive-Ordner der Forschungsleitung
+  gespeichert.
+</p>
+<p>
+  Die Teilnehmer müssen sich für diesen
+  automatischen Upload nicht persönlich
+  bei Google Drive anmelden.
+</p>
 
-  <h2>6. Löschung der Daten</h2>
-  <p>
-    Gespeicherte CSV-Dateien können durch den Nutzer
-    über die Dateiverwaltung des Geräts gelöscht werden.
-    Bei der Deinstallation werden die privaten App-Daten
-    gemäß dem Verhalten von Android entfernt.
-    Exportierte Dateien können unabhängig davon
-    erhalten bleiben und müssen gegebenenfalls
-    separat gelöscht werden.
-  </p>
+<h2>4. App-Berechtigungen und Sicherheit</h2>
+<p>
+  Die Anwendung verwendet Bluetooth zur
+  Kommunikation mit dem Polar-H10-Sensor.
+</p>
+<p>
+  Weitere Android-Berechtigungen können
+  für die Datenaufzeichnung, Benachrichtigungen,
+  Internetverbindung und lokale
+  Dateispeicherung erforderlich sein.
+</p>
+<p>
+  Die Upload-Infrastruktur verwendet
+  Google Play Integrity zur Überprüfung
+  der App- und Geräteintegrität.
+</p>
+<p>
+  Die zentrale Speicherung ist gegen
+  öffentlichen Zugriff geschützt.
+</p>
 
-  <h2>7. Medizinische Verwendung</h2>
-  <p>
-    PULSE H10 dient der Aufzeichnung und technischen
-    Auswertung von Sensordaten. Die Anwendung ist
-    nicht zur medizinischen Diagnose oder Behandlung
-    bestimmt.
-  </p>
+<h2>5. Datenzugriff und Weitergabe</h2>
+<p>
+  Die zentral gespeicherten Aufzeichnungen
+  stehen der berechtigten Forschungsleitung
+  und ausdrücklich autorisierten
+  Projektmitarbeitern zur Verfügung.
+</p>
+<p>
+  Für die technische Übertragung und
+  Speicherung werden Dienste von
+  Google Cloud und Google Drive verwendet.
+</p>
+<p>
+  Eine öffentliche Veröffentlichung
+  individueller Messdaten ist nicht vorgesehen.
+</p>
 
-  <h2>8. Kontakt</h2>
-  <p>
-    Datenschutzanfragen können an folgende Adresse
-    gerichtet werden:<br>
-    Paul Rostocki<br>
+<h2>6. Aufbewahrung und Löschung</h2>
+<p>
+  Lokal gespeicherte und exportierte Dateien
+  können entsprechend den verfügbaren
+  Funktionen des Android-Geräts
+  gelöscht werden.
+</p>
+<p>
+  Eine Löschung lokaler Dateien führt
+  nicht automatisch zur Löschung bereits
+  übertragener Forschungsdaten.
+</p>
+<p>
+  Die Aufbewahrungsdauer und die Löschung
+  zentral gespeicherter Forschungsdaten
+  werden durch die Forschungsleitung
+  gemäß den für das Projekt geltenden
+  Regelungen festgelegt.
+</p>
+<p>
+  Anfragen zur Löschung oder zum Zugriff
+  auf gespeicherte Daten können an die
+  Forschungsleitung gerichtet werden.
+</p>
+
+<h2>7. Medizinische Verwendung</h2>
+<p>
+  PULSE H10 dient ausschließlich
+  der technischen Aufzeichnung und
+  wissenschaftlichen Auswertung
+  von Sensordaten.
+</p>
+<p>
+  Die Anwendung ist nicht zur
+  medizinischen Diagnose oder
+  Behandlung bestimmt.
+</p>
+
+<h2>8. Kontakt</h2>
+<p>
+  Für technische Fragen zur Anwendung:<br>
+  Paul Rostocki<br>
+  <a href="mailto:paul.rostocki@gmail.com">
     paul.rostocki@gmail.com
-  </p>
+  </a>
+</p>
+<p>
+ Für Datenschutzanfragen und Fragen
+zur zentralen Datenspeicherung:<br>
+Heinrich Gotzig<br>
+<a href="mailto:hgotzig@gmail.com">
+  hgotzig@gmail.com
+</a>
+</p>
+
 </body>
 </html>
